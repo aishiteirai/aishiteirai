@@ -1,43 +1,40 @@
-## <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="28" height="28"> **Ryan Corazza Alvarenga**
+### Ryan Corazza Alvarenga
 
-[![LinkedIn](https://img.shields.io/badge/-linked.in/ryancorazza-0A66C2?style=flat-square&logo=linkedin)](http://linked.in/ryancorazza)
-[![GitHub](https://img.shields.io/badge/-@aishiteirai-181717?style=flat-square&logo=github)](https://github.com/aishiteirai)
+Desenvolvedor backend. Construo sistemas com regra de negócio de verdade: pedidos, pagamentos, saldo, relatórios. Trabalho com Java/Spring Boot, TypeScript/Node e Python, sempre com PostgreSQL, testes automatizados e CI.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=aishiteirai&show_icons=true&theme=transparent&hide_border=true&icon_color=58a6ff&text_color=c9d1d9&title_color=58a6ff&count_private=true">
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=aishiteirai&show_icons=true&theme=transparent&hide_border=true&icon_color=0969da&text_color=1f2328&title_color=0969da&count_private=true" width="48%">
-</picture>
-
-```text
-🎯  Focusing
-🌱  Exploring TypeScript, Spring Boot & personal finance tools
-🧮  Building calc engines, simulators & full-stack apps
-```
-
-<br>
+[Portfólio](https://ryancorazza.vercel.app) · [LinkedIn](https://linked.in/ryancorazza)
 
 ---
 
-### 🧰 Tech Stack
+### Projetos em destaque
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+**[Naquela Mesa](https://github.com/aishiteirai/naquela-mesa)** · [demo](https://naquela-mesa.vercel.app)
+Cardápio digital e gestão de pedidos para restaurantes. Cada loja tem uma página pública e um painel de operação com fila de pedidos em tempo real, comanda para impressora térmica, avisos por WhatsApp e métricas.
+- Preço calculado no servidor e pedido gravado em transação
+- Código organizado por domínio (`orders`, `catalog`, `auth`, `audit`), 13 migrations versionadas
+- Testes unitários, de integração contra Postgres e e2e com Playwright, todos no CI
+- `Next.js` `TypeScript` `PostgreSQL` `Drizzle` `Better Auth` `Vercel`
 
+**[everythingispdf](https://github.com/aishiteirai/everythingispdf)**
+Serviço web que converte documentos e imagens em PDF (LibreOffice headless + Pillow).
+- Rate limit compartilhado em Redis, cabeçalhos de segurança, healthcheck
+- Docker Compose, Gunicorn, ruff, pip-audit e testes rodando no CI
+- `Python` `Flask` `Redis` `Docker`
+
+**[YIPE](https://github.com/aishiteirai/yipe-personal-finance)**
+Gestão de finanças pessoais: transações, faturas de cartão, orçamento por categoria, extrato e importação/exportação.
+- Valores em `BigDecimal`, schema versionado com Flyway, DTOs com MapStruct
+- Testes de service, repository e controller
+- `Java 21` `Spring Boot` `Spring Security` `JPA` `Flyway` `Thymeleaf`
+
+**[Simulador OSI](https://github.com/aishiteirai/simulador-osi)**
+Simulador das sete camadas do modelo OSI, com topologia de rede, roteamento e segmentação. Projeto em equipe de seis pessoas.
+- `Python`
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=aishiteirai&layout=compact&theme=transparent&hide_border=true&text_color=c9d1d9&title_color=58a6ff">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aishiteirai&layout=compact&theme=transparent&hide_border=true" width="48%">
-</picture>
+### Stack
 
-<br>
-
----
-
-*README crafted with ✨ — stats powered by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)*
+**Backend:** Java, Spring Boot, TypeScript, Node.js, Python, Flask
+**Dados:** PostgreSQL, Redis, JPA/Hibernate, Drizzle, Flyway
+**Qualidade e entrega:** JUnit, Vitest, Playwright, GitHub Actions, Docker
